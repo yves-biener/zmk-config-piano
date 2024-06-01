@@ -151,7 +151,7 @@
 		};
        		alpha2 {
 		bindings = <
-		 	 	&kp SINGLE_QUOTE 	&kp ?		&kp ?	 	 	&kp ?    	&kp ?		&kp L 	
+		 	 	&kp SINGLE_QUOTE 	&none		&none	 	 	&none    	&none		&kp L 	
 		&kp SEMICOLON	&kp Q 		&kp J		&kp K 			&kp M 		&kp W		&kp V	&kp Z 
 			 	 		 	&none	&sk LSHIFT 		&sk RSHIFT	&trans
 		>;
@@ -159,8 +159,8 @@
 
 			alpha3 {
 		bindings = <
-		 	 	&kp TAB	&kp ?	&kp Y 	 	&kp F	&kp ?		&kp SLASH	
-		&kp ESC	&kp ? 	&kp X	&kp I		&kp D	&kp B	&kp ?	&kp ? 
+		 	 	&kp TAB	&none	&kp Y 	 	&kp F	&none		&kp SLASH	
+		&kp ESC	&none 	&kp X	&kp I		&kp D	&kp B	&none	&none 
 			 	&none 		&none 			&trans	&trans
 		>;
 		};
@@ -191,7 +191,7 @@
 
 		sys {
 		bindings = <
-				&kp LC(LS(TAB))	&kp RC(TAB) &kp PG_UP		&kp LS(LC((C)) 	&kp UP 		&kp LS(LC(V))
+				&kp LC(LS(TAB))	&kp RC(TAB) &kp PG_UP		&kp LS(LC(C)) 	&kp UP 		&kp LS(LC(V))
 		&kp C_PREV	&kp C_PP	&kp C_NEXT 	&kp PG_DN		&kp LEFT  		&kp DOWN 	&kp RIGHT 	&kp RET 
 		 			 		 &trans	&trans	&trans &trans
 		>;
